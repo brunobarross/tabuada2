@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabuada</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <section>
+      <div class="primeira">
+        <div class="formulario">
+          <p>Digite um número: </p>
+          <input type="number" id="numero" name="numero">
+        </div>
+        <p>Selecione a operação desejada</p>
+        <div class="botoes">
+          <input type="button" value="x" id="button"
+         onclick="multiplicacao()">
+          <input type="button" value="÷" id="button" onclick="divisao()">  
+          <input type="button" value="+" id="button" onclick="somar()">  
+          <input type="button" value="-" id="button" onclick="subtracao()">  
+      </div>   
+      </div>
+      <div class="segunda">
+        <select id="tabuada" size="10"></select>
+      </div>
+    </section>
+</main>
+  <script src="script.js"></script>
+</body>
+</html>
